@@ -3929,7 +3929,7 @@ if (typeof jQuery != 'undefined') {
                         '" aria-label="' + t.options.muteText +
                     '"></button>'+
                 '</div>' +
-                  '<a href="javascript:void(0);" class="mejs-horizontal-volume-slider">' + // outer background
+                  '<a href="#" class="mejs-horizontal-volume-slider">' + // outer background
                     '<span class="mejs-offscreen">' + t.options.allyVolumeControlText + '</span>' +
                     '<div class="mejs-horizontal-volume-total"></div>'+ // line background
                     '<div class="mejs-horizontal-volume-current"></div>'+ // current volume
@@ -3944,7 +3944,7 @@ if (typeof jQuery != 'undefined') {
                         '" title="' + t.options.muteText + 
                         '" aria-label="' + t.options.muteText + 
                     '"></button>'+
-                    '<a href="javascript:void(0);" class="mejs-volume-slider">'+ // outer background
+                    '<a href="#" class="mejs-volume-slider">'+ // outer background
                         '<span class="mejs-offscreen">' + t.options.allyVolumeControlText + '</span>' +                  
                         '<div class="mejs-volume-total"></div>'+ // line background
                         '<div class="mejs-volume-current"></div>'+ // current volume
